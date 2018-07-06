@@ -27,6 +27,6 @@ under `ml` directory:
 - Evaluators.go				: Accuracy matrix to evaluate the performance
 - RunExperiments.go	: Run my implementations along with the goml library and compare the performance.
 
-## Feature Work
+## Future Work
 Find appropriate values for the tuning parameters.
 Improve KNN.
