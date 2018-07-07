@@ -37,6 +37,6 @@ under `ml` directory:
 
 
 ## Future Work
-Find appropriate values for the tuning parameters.
-Improve SGD.
-Implement KNN.
+- Find appropriate values for the tuning parameters.
+- Improve SGD.
+- Implement KNN.
