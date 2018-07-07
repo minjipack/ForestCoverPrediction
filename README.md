@@ -12,12 +12,12 @@ Install `go` and `gonum`.
 
 
 
-## Tests
+## Usage
 
     $ go main.go
     
 
-## Feature
+## Description of files
 under `ml` directory:
 
 - DataUtils.go				: Splitting the dataset
@@ -27,6 +27,16 @@ under `ml` directory:
 - Evaluators.go				: Accuracy matrix to evaluate the performance
 - RunExperiments.go	: Run my implementations along with the goml library and compare the performance.
 
+## Result
+
+|     | GoML Training | GoML Testing | My Implementation Training | My Implementation Testing |
+|-----|---------------|--------------|----------------------------|---------------------------|
+| SGD | 0.6010        | 0.5847       | 0.1642                     | 0.1555                    |
+| LR  | 0.6010        | 0.5849       | 0.6018                     | 0.5863                    |
+| KNN | 0.1471        | 0.1329       | -                          | -                         |
+
+
 ## Future Work
 Find appropriate values for the tuning parameters.
-Improve KNN.
+Improve SGD.
+Implement KNN.
